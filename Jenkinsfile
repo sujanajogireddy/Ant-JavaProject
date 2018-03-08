@@ -8,6 +8,6 @@ if (env.BRANCH_NAME == 'master     ') {
   println 'This happens only on master'
 } else {
   stage 'Other branches'
-  println "Current branch ${env.BRANCH_NAME}"
+  println "Current branch ${env.BRANCH_NAME}" 
 }
 
